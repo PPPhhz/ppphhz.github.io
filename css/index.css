@@ -1,0 +1,35 @@
+/*05-ScrollRevealJS*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  width: 100%;
+  /*overflow-x: hidden;*/
+  /*overflow-y: visible;*/
+  /*background-color: palevioletred;*/
+  background-position: 0 0;
+  background-attachment: fixed;
+  background-size: cover ;
+  background-image: url("../images/59187ad0b431131c72a9b76457cd943b.jpg");
+}
+@media screen and (max-width: 1024px) {
+  body,
+  html {
+    background-image: url("../images/2.jpg");
+  }
+}
+div {
+  width: 90%;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  margin: 0 auto;
+}
+div:nth-child(odd) {
+  background: #ffb996;
+}
+div:nth-child(even) {
+  background: #91e0ff;
+}
