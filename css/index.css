@@ -3,21 +3,15 @@
   margin: 0;
   padding: 0;
 }
-body,
-html {
+body,html{
   width: 100%;
-  /*overflow-x: hidden;*/
-  /*overflow-y: visible;*/
-  /*background-color: palevioletred;*/
-  background-position: 0 0;
-  background-attachment: fixed;
-  background-size: cover ;
-  background-image: url("../images/59187ad0b431131c72a9b76457cd943b.jpg");
+  background:  url("../images/59187ad0b431131c72a9b76457cd943b.jpg") 0 0 no-repeat  fixed;
+  background-size:cover ;
 }
 @media screen and (max-width: 1024px) {
   body,
   html {
-    background-image: url("../images/2.jpg");
+         background:  #ffddca fixed;
   }
 }
 div {
