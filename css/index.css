@@ -60,6 +60,10 @@ html .content div {
   margin: 0 auto;
   position: relative;
 }
+body .content div:nth-of-type(6) > img,
+html .content div:nth-of-type(6) > img {
+  width: 250px;
+}
 body .content div img,
 html .content div img {
   position: absolute;
