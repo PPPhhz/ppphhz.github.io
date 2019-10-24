@@ -11,9 +11,8 @@ html {
   width: 100%;
   scrollbar-width: none;
   -webkit-overflow-scrolling: touch;
-  background: url("../images/timg.jpg") 0 0 no-repeat;
-  background-size: cover ;
-  background-attachment: fixed !important;
+  background: url("../images/timg.jpg") 0 0 no-repeat fixed;
+  background-size: cover !important;
 }
 body::-webkit-scrollbar,
 html::-webkit-scrollbar {
