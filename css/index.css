@@ -21,7 +21,7 @@ html::-webkit-scrollbar {
 @media screen and (max-width: 1024px) {
   body,
   html {
-    background-position: -213px 0;
+    background: url("../images/timg.jpg") -213px 0 no-repeat fixed !important;
   }
 }
 div {
