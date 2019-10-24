@@ -137,10 +137,9 @@ html .footer .left-side ul > li:hover {
 body .footer .right-side,
 html .footer .right-side {
   z-index: 999;
-  width: 70px;
-  height: 150px;
+  width: 80px;
   position: fixed;
-  top: 40%;
+  top: 30%;
   right: 0;
 }
 body .footer .right-side img,
@@ -152,4 +151,8 @@ html .footer .right-side img:hover {
   transition: all 1s;
   transform-origin: right;
   transform: scale(1.7);
+}
+body .footer .right-side img .gotHat,
+html .footer .right-side img .gotHat {
+  display: none !important;
 }
