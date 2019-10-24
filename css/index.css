@@ -12,11 +12,17 @@ html {
   scrollbar-width: none;
   -webkit-overflow-scrolling: touch;
   background: url("../images/timg.jpg") 0 0 no-repeat fixed;
-  background-size: cover !important;
+  background-size: cover;
 }
 body::-webkit-scrollbar,
 html::-webkit-scrollbar {
   display: none;
+}
+@media screen and (max-width: 1024px) {
+  body,
+  html {
+    background: url("../images/timg-mobile.jpg") 0 0 no-repeat fixed;
+  }
 }
 div {
   width: 100%;
