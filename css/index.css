@@ -11,21 +11,44 @@ html {
   width: 100%;
   scrollbar-width: none;
   -webkit-overflow-scrolling: touch;
-  background: url("../images/timg.jpg") 0 0 no-repeat fixed;
-  background-size: cover;
 }
 body::-webkit-scrollbar,
 html::-webkit-scrollbar {
   display: none;
 }
-@media screen and (max-width: 768px) {
-  body,
-  html {
-    background: url("../images/timg-mobile.jpg") 0 0 no-repeat fixed;
-    background-size: cover;
+body .bg,
+html .bg,
+body .bg-pad,
+html .bg-pad,
+body .bg-mobile,
+html .bg-mobile {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+@media screen and (min-width: 1025px) {
+  body .bg,
+  html .bg {
+    display: block;
   }
 }
-div {
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  body .bg-pad,
+  html .bg-pad {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  body .bg-mobile,
+  html .bg-mobile {
+    display: block;
+  }
+}
+body div,
+html div {
   width: 100%;
   height: 200px;
   line-height: 200px;
@@ -33,16 +56,19 @@ div {
   margin: 0 auto;
   position: relative;
 }
-div img {
+body div img,
+html div img {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 200px;
 }
-div:nth-child(odd) {
+body div:nth-child(odd),
+html div:nth-child(odd) {
   background-color: rgba(255, 185, 150, 0.7);
 }
-div:nth-child(even) {
+body div:nth-child(even),
+html div:nth-child(even) {
   background-color: rgba(145, 224, 255, 0.7);
 }
