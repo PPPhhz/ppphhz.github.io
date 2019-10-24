@@ -6,11 +6,22 @@
 p {
   height: 20px;
 }
+@media screen and (min-width: 1025px) {
+  p {
+    height: 90px;
+  }
+}
 body,
 html {
   width: 100%;
   scrollbar-width: none;
   -webkit-overflow-scrolling: touch;
+}
+@media screen and (min-width: 1025px) {
+  body,
+  html {
+    font-size: 30px;
+  }
 }
 body::-webkit-scrollbar,
 html::-webkit-scrollbar {
@@ -60,6 +71,13 @@ html .content div {
   margin: 0 auto;
   position: relative;
 }
+@media screen and (min-width: 1025px) {
+  body .content div,
+  html .content div {
+    height: 400px;
+    line-height: 400px;
+  }
+}
 body .content div img,
 html .content div img {
   position: absolute;
@@ -67,6 +85,13 @@ html .content div img {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 250px;
+}
+@media screen and (min-width: 1025px) {
+  body .content div img,
+  html .content div img {
+    height: 350px;
+    width: auto;
+  }
 }
 body .content div:nth-child(odd),
 html .content div:nth-child(odd) {

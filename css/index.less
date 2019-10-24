@@ -5,9 +5,16 @@
 }
   p{
     height: 20px;
+    @media screen and (min-width: 1025px){
+      height: 90px;
+    }
   }
+
 body,html{
   width: 100%;
+  @media screen and (min-width: 1025px){
+    font-size: 30px;
+  }
   scrollbar-width: none;
   -webkit-overflow-scrolling: touch;
   &::-webkit-scrollbar {
@@ -46,12 +53,20 @@ body,html{
       text-align: center;
       margin: 0 auto;
       position: relative;
+      @media screen and (min-width: 1025px){
+        height: 400px;
+        line-height: 400px;
+      }
       img{
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%,-50%);
         width: 250px;
+        @media screen and (min-width: 1025px){
+          height: 350px;
+          width: auto;
+        }
       }
     }
     div:nth-child(odd){
