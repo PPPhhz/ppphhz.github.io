@@ -39,8 +39,12 @@ $(function() {
     });
 
     // 给reol戴帽子
-    $(".footer .hat").click(function () {
+    $(".hat").click(function () {
         $(".getHat").stop().fadeOut(500);
-        $(".gotHat").stop().fadeIn(500);
+        $(".gotHat").stop().delay(500).fadeIn(1000);
+    });
+    $(".hat").mouseenter(function () {
+        $(".getHat").stop().fadeOut(500);
+        $(".gotHat").stop().delay(500).fadeIn(1000);
     })
 });

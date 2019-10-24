@@ -137,9 +137,9 @@ html .footer .left-side ul > li:hover {
 body .footer .right-side,
 html .footer .right-side {
   z-index: 999;
-  width: 80px;
+  width: 70px;
   position: fixed;
-  top: 30%;
+  bottom: 0;
   right: 0;
 }
 body .footer .right-side img,
@@ -152,7 +152,28 @@ html .footer .right-side img:hover {
   transform-origin: right;
   transform: scale(1.7);
 }
-body .footer .right-side img .gotHat,
-html .footer .right-side img .gotHat {
-  display: none !important;
+body .footer .right-side .gotHat,
+html .footer .right-side .gotHat {
+  display: none ;
+  position: absolute;
+  bottom: 240px;
+  right: 0;
+}
+body .footer .right-side .getHat,
+html .footer .right-side .getHat {
+  position: absolute;
+  bottom: 240px;
+  right: 0;
+}
+body .footer .right-side .hat:nth-of-type(0),
+html .footer .right-side .hat:nth-of-type(0) {
+  position: absolute;
+  bottom: 140px;
+  right: 0;
+}
+body .footer .right-side .hat:nth-of-type(1),
+html .footer .right-side .hat:nth-of-type(1) {
+  position: absolute;
+  bottom: 30px;
+  right: 0;
 }

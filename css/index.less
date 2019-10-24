@@ -110,22 +110,42 @@ body,html{
           }
               .right-side{
                 z-index: 999;
-                width: 80px;
+                width: 70px;
                 position: fixed;
-                top: 30%;
+                bottom: 0;
                 right: 0;
                 img{
                   width: 100%;
-
                   &:hover{
                     transition: all 1s;
                     transform-origin: right;
                     transform: scale(1.7);
                   }
-                  .gotHat{
-                    display: none !important;
-                  }
                 }
+                .gotHat{
+                  display: none ;
+                  position: absolute;
+                  bottom: 240px;
+                  right: 0;
+                }
+                .getHat{
+                  position: absolute;
+                  bottom: 240px;
+                  right: 0;
+                }
+                .hat:nth-of-type(0){
+                  position: absolute;
+                  bottom: 140px;
+                  right: 0;
+
+                }
+
+                .hat:nth-of-type(1){
+                  position: absolute;
+                  bottom: 30px;
+                  right: 0;
+                }
+
               }
       }
 }
