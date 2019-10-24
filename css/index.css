@@ -84,27 +84,47 @@ body .footer .cur,
 html .footer .cur {
   background-color: #ffc345!important;
 }
-body .footer .aside,
-html .footer .aside {
+body .footer .left-side,
+html .footer .left-side {
   z-index: 999;
-  width: 70px;
+  width: 60px;
   position: fixed;
   top: 40%;
   left: 5px;
   display: none;
 }
-body .footer .aside ul > li,
-html .footer .aside ul > li {
+body .footer .left-side ul > li,
+html .footer .left-side ul > li {
   list-style: none;
-  width: 70px;
+  width: 60px;
   height: 30px;
   line-height: 30px;
   text-align: center;
   border-bottom: 1px dashed #fff8f3;
   cursor: pointer;
   background: rgba(255, 195, 69, 0.7);
+  font-size: 15px;
 }
-body .footer .aside ul > li:hover,
-html .footer .aside ul > li:hover {
+body .footer .left-side ul > li:hover,
+html .footer .left-side ul > li:hover {
   background: #ffc345;
+}
+body .footer .right-side,
+html .footer .right-side {
+  z-index: 999;
+  width: 70px;
+  height: 150px;
+  position: fixed;
+  top: 40%;
+  right: 0;
+}
+body .footer .right-side img,
+html .footer .right-side img {
+  width: 100%;
+}
+body .footer .right-side img:hover,
+html .footer .right-side img:hover {
+  transition: all 1s;
+  transform-origin: right;
+  transform: scale(1.7);
 }

@@ -5,10 +5,10 @@ $(function() {
     //     // 获取网页高度
     //     var $winHeight = $(window).height();
     //     //判断是否滚出一屏
-        if(offset >= 200){
-            $(".aside").stop().fadeIn(500);
+        if(offset >= 150){
+            $(".left-side").stop().fadeIn(500);
         }else{
-            $(".aside").stop().fadeOut(500);
+            $(".left-side").stop().fadeOut(500);
         }
         // 2.2遍历拿所有楼层
         $(".floor").each(function (idx, ele) {
