@@ -86,6 +86,7 @@
     执行动画的元素离开屏幕之后就会被重置
     重置就是重新设置为动画开始之前的默认样式
     * */
+        document.getElementsByTagName("body")[0].style.height = window.innerHeight+'px';
     let sr = ScrollReveal({
         reset: true,
         duration: 2000,
