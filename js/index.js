@@ -37,4 +37,5 @@ $(function() {
         // 1.3让网页滚动到对应楼层的位置
         $('body , html').animate({scrollTop: offset}, 1000);
     });
+
 });

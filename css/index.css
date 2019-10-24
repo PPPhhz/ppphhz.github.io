@@ -60,17 +60,13 @@ html .content div {
   margin: 0 auto;
   position: relative;
 }
-body .content div:nth-of-type(6) > img,
-html .content div:nth-of-type(6) > img {
-  width: 250px;
-}
 body .content div img,
 html .content div img {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 200px;
+  width: 250px;
 }
 body .content div:nth-child(odd),
 html .content div:nth-child(odd) {
