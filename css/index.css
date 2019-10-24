@@ -18,7 +18,7 @@ body::-webkit-scrollbar,
 html::-webkit-scrollbar {
   display: none;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   body,
   html {
     background: url("../images/timg-mobile.jpg") 0 0 no-repeat fixed;
