@@ -11,18 +11,13 @@ html {
   width: 100%;
   scrollbar-width: none;
   -webkit-overflow-scrolling: touch;
-  background: url("../images/timg.jpg") 0 0 no-repeat fixed;
+  background: url("../images/timg.jpg") 0 0 no-repeat;
   background-size: cover ;
+  background-attachment: fixed !important;
 }
 body::-webkit-scrollbar,
 html::-webkit-scrollbar {
   display: none;
-}
-@media screen and (max-width: 1024px) {
-  body,
-  html {
-    background: url("../images/timg.jpg") -213px 0 no-repeat fixed !important;
-  }
 }
 div {
   width: 100%;
