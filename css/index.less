@@ -3,31 +3,47 @@
   margin: 0;
   padding: 0;
 }
+  p{
+    height: 20px;
+  }
 body,html{
   width: 100%;
-  /*overflow-x: hidden;*/
-  /*overflow-y: visible;*/
-  /*background-color: palevioletred;*/
-  background-position:  0 0;
-  background-attachment: fixed;
-  background-size:cover ;
-  background-image: url("../images/59187ad0b431131c72a9b76457cd943b.jpg");
-  @media screen  and (max-width: 1024px){
-    //background: url("../images/2.jpg") -100 0   fixed;
-    background-image: url("../images/2.jpg");
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  //background:  #ccf6ca;
 
+  background:  url("../images/timg.jpg") 0 0 no-repeat  fixed;
+  background-size:cover ;
+  @media screen  and (max-width: 1024px){
+    //background:  url("../images/timg.jpg") -100 0 no-repeat  fixed;
+    background-position: -213px 0;
+  //  background:  #ccf6ca;
   }
 }
 div{
-  width: 90%;
+  width: 100%;
   height: 200px;
   line-height: 200px;
   text-align: center;
   margin: 0 auto;
+  position: relative;
+  img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+  }
 }
 div:nth-child(odd){
-  background: #ffb996;
+  //background: #ffb996;
+  background-color: rgba(255, 185, 150, 0.7);
 }
 div:nth-child(even){
-  background: #91e0ff;
+  //background: #91e0ff;
+  background-color: rgba(145, 224, 255, 0.7);
+
 }
