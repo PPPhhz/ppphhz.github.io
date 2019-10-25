@@ -40,11 +40,11 @@ $(function() {
 
     // 给reol戴帽子
     $(".hat").click(function () {
-        $(".getHat").stop().fadeOut(500);
-        $(".gotHat").stop().delay(500).fadeIn(1000);
+        $(".getHat").stop().fadeOut(1000);
+        $(".gotHat").stop().delay(1000).fadeIn(1000);
     });
     $(".hat").mouseenter(function () {
-        $(".getHat").stop().fadeOut(500);
-        $(".gotHat").stop().delay(500).fadeIn(1000);
+        $(".getHat").stop().fadeOut(1000);
+        $(".gotHat").stop().delay(1000).fadeIn(1000);
     })
 });
