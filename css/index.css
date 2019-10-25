@@ -156,13 +156,13 @@ body .footer .right-side .gotHat,
 html .footer .right-side .gotHat {
   display: none ;
   position: absolute;
-  bottom: 240px;
+  bottom: 230px;
   right: 0;
 }
 body .footer .right-side .getHat,
 html .footer .right-side .getHat {
   position: absolute;
-  bottom: 240px;
+  bottom: 230px;
   right: 0;
 }
 body .footer .right-side .hat:nth-of-type(0),
