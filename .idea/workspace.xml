@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1d13d94-5305-442b-8bfe-e8620783c793" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c1d13d94-5305-442b-8bfe-e8620783c793" name="Default Changelist" comment="改左楼层位置" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +15,9 @@
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -41,7 +40,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="32" />
+          <entry key="html" value="37" />
           <entry key="js" value="2" />
           <entry key="less" value="14" />
           <entry key="txt" value="27" />
@@ -49,7 +48,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="32" />
+          <entry key="HTML" value="37" />
           <entry key="JavaScript" value="2" />
           <entry key="Less" value="14" />
           <entry key="PLAIN_TEXT" value="27" />
@@ -59,11 +58,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="52" column="13" lean-forward="true" selection-end-line="134" selection-end-column="7" />
+            <state relative-caret-position="448">
+              <caret line="63" column="6" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -71,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/reset.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
+            <state relative-caret-position="100">
               <caret line="4" column="14" selection-end-line="26" />
             </state>
           </provider>
@@ -80,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state>
               <caret column="412" lean-forward="true" selection-start-column="412" selection-end-column="412" />
             </state>
           </provider>
@@ -89,17 +88,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/index.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="85" column="15" lean-forward="true" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="15" />
+            <state relative-caret-position="2125">
+              <caret line="85" column="15" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" lean-forward="true" selection-end-line="180" />
+            <state relative-caret-position="50">
+              <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -113,8 +112,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/js/index.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/index.less" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -135,6 +134,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -161,7 +161,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,6 +192,7 @@
       <workItem from="1572013354443" duration="157000" />
       <workItem from="1572013566487" duration="496000" />
       <workItem from="1572052966637" duration="5905000" />
+      <workItem from="1572064502755" duration="675000" />
     </task>
     <task id="LOCAL-00001" summary="加图">
       <created>1572013893789</created>
@@ -264,11 +264,18 @@
       <option name="project" value="LOCAL" />
       <updated>1572060297423</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="改左楼层位置">
+      <created>1572064548294</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1572064548294</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6558000" />
+    <option name="totallyTimeSpent" value="7233000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -311,38 +318,38 @@
     <entry file="file://$PROJECT_DIR$/images/8.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret column="412" lean-forward="true" selection-start-column="412" selection-end-column="412" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="52" column="13" lean-forward="true" selection-end-line="134" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="100">
           <caret line="4" column="14" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="412" lean-forward="true" selection-start-column="412" selection-end-column="412" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="85" column="15" lean-forward="true" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="15" />
+        <state relative-caret-position="2125">
+          <caret line="85" column="15" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" lean-forward="true" selection-end-line="180" />
+        <state relative-caret-position="50">
+          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="63" column="6" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
         </state>
       </provider>
     </entry>
