@@ -116,7 +116,6 @@ html .footer .left-side {
   position: fixed;
   top: 50%;
   transform: translateY(-50%);
-  left: 5px;
   display: none;
 }
 body .footer .left-side ul > li,
