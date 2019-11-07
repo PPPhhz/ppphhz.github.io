@@ -107,7 +107,7 @@ html .content div:nth-child(1) {
 }
 body .footer .cur,
 html .footer .cur {
-  background-color: #ffd693 !important;
+  background-color: #ffc345 !important;
 }
 body .footer .icon-caidan1,
 html .footer .icon-caidan1 {
@@ -123,7 +123,7 @@ html .footer .left-side {
   z-index: 999;
   width: 60px;
   position: fixed;
-  top: 50%;
+  top: 55%;
   left: 0;
   transform: translateY(-50%);
   display: none;
@@ -139,10 +139,6 @@ html .footer .left-side ul > li {
   cursor: pointer;
   background: rgba(255, 195, 69, 0.7);
   font-size: 15px;
-}
-body .footer .left-side ul > li:hover,
-html .footer .left-side ul > li:hover {
-  background: #ffc345;
 }
 body .footer .right-side,
 html .footer .right-side {
