@@ -107,7 +107,16 @@ html .content div:nth-child(1) {
 }
 body .footer .cur,
 html .footer .cur {
-  background-color: #ffc345!important;
+  background-color: #ffd693 !important;
+}
+body .footer .icon-caidan1,
+html .footer .icon-caidan1 {
+  width: 50px;
+  height: 50px;
+  font-size: 50px;
+  position: fixed;
+  top: 5px;
+  left: 5px;
 }
 body .footer .left-side,
 html .footer .left-side {
@@ -123,8 +132,8 @@ body .footer .left-side ul > li,
 html .footer .left-side ul > li {
   list-style: none;
   width: 60px;
-  height: 28px;
-  line-height: 28px;
+  height: 25px;
+  line-height: 25px;
   text-align: center;
   border-bottom: 1px dashed #fff8f3;
   cursor: pointer;
