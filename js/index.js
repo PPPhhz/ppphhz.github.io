@@ -1,5 +1,5 @@
 $(function() {
-    $(".icon-caidan1").click(function () {
+    $(".iconfont").click(function () {
         $(".left-side").stop().toggle(500);
     });
     $(window).scroll(function () {
