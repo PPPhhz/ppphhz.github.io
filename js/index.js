@@ -1,5 +1,4 @@
 $(function() {
-    $("#loading").fadeOut(3000);
     $(".iconfont").click(function () {
         $(".left-side").stop().toggle(500);
     });
