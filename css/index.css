@@ -82,6 +82,7 @@ body .content,
 html .content {
   width: 100%;
   overflow: hidden;
+  padding-bottom: 57px;
 }
 body .content div,
 html .content div {
@@ -159,6 +160,23 @@ html .footer .right-side {
   position: fixed;
   bottom: 0;
   right: 0;
+}
+body .footer .bottom-side,
+html .footer    .bottom-side {
+  text-align: center;
+  width: 100vw;
+  box-sizing: border-box;
+  position: fixed;
+  height: 58px;
+  background-color: #ffb417b3;
+  bottom: 0;
+  line-height: 11px;
+  left: 50%;
+  font-size: 18px;
+  color: #fff;
+  transform: translate(-50%, 0%);
+  z-index: 99;
+  padding: 10px 0;
 }
 body .footer .right-side img,
 html .footer .right-side img {
